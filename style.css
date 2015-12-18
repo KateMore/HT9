@@ -1,0 +1,109 @@
+/*Base*/
+
+
+
+
+
+/*layout*/
+
+
+
+
+/*Modules*/
+
+
+body {
+	
+	background: #E3CAA1;
+
+}
+.nav-with-dropdown{
+	margin: 20px;
+	font-size: 0;
+	font-family: sans-serif;
+}
+.nav-with-dropdown * {
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+
+.nav-with-dropdown > li {
+	display: inline-block;
+	background: #fff;
+
+}
+
+.nav-with-dropdown > li > a {
+	
+	color: #00080C;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+
+}
+
+.nav-with-dropdown > .item-with-subnav {
+	position: relative;
+	background: #555555;
+	
+}
+
+.nav-with-dropdown > .item-with-subnav > a {
+	color: #FFFFFF;
+}
+
+
+/*Subnav*/
+
+.nav-with-dropdown > .item-with-subnav:hover .subnav {
+	display: block;
+	background: #555555;
+}
+
+
+
+.subnav {
+	position: absolute;
+	display: none;
+	width: 160px;
+	background: #555555;
+	padding-left: 0px;
+
+}
+
+.subnav > li {
+	display: block;
+	height: 36px;
+	padding-top: 17px;
+	padding-left: 20px;
+	margin-left: 0px;
+	
+
+}
+
+.subnav > li:hover {
+
+	background: #666666;
+}
+
+
+.subnav > li > a {
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
