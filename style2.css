@@ -1,0 +1,57 @@
+
+
+body  {
+	width: 40%;
+	text-align: justify;
+	cursor: pointer;
+}
+
+
+
+.simple-text, .for-explain {
+	position: relative;
+	display: inline;
+	}
+
+
+.arrow_box {
+	position: absolute;
+	width: 200%;
+	height: auto;
+	color: #FFFFFF;
+	background: #0a0d0f;
+	border: 1px solid #101314;
+	top: -60px;
+	left: -30px;
+}
+
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(10, 13, 15, 0);
+	border-top-color: #0a0d0f;
+	border-width: 8px;
+	margin-left: -8px;
+}
+.arrow_box:before {
+	border-color: rgba(16, 19, 20, 0);
+	border-top-color: #101314;
+	border-width: 9px;
+	margin-left: -9px;
+}
+.simple-text > .for-explain > .arrow_box {
+	display: none;
+}
+.simple-text > .for-explain:hover > .arrow_box {
+	display: block;
+	cursor: pointer;
+}
