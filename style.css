@@ -34,6 +34,14 @@ body {
 
 }
 
+.nav-with-dropdown > li:hover  a:hover {
+	background: #555555;
+	color: #fff;
+
+} 
+
+
+
 .nav-with-dropdown > li > a {
 	
 	color: #00080C;
@@ -45,14 +53,12 @@ body {
 
 .nav-with-dropdown > .item-with-subnav {
 	position: relative;
-	background: #555555;
-	
-}
 
-.nav-with-dropdown > .item-with-subnav > a {
+}
+ .item-with-subnav:hover {
 	color: #FFFFFF;
+	background: #555555;
 }
-
 
 /*Subnav*/
 
